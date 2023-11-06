@@ -1,0 +1,21 @@
+#services {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 960px;
+  @media only screen and (min-width: $cut) {
+    width: 80%;
+  }
+}
+.service_title {
+  text-align: center;
+  margin: 5px auto;
+}
+
+.service {
+  text-align: justify;
+  margin: 10px;
+}
+
+.icons {
+  color: $sec;
+}

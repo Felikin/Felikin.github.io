@@ -7,10 +7,6 @@
   }
 }
 
-.tech {
-  margin: 10px;
-}
-
 .user {
   text-align: center;
   font-size: 60px;
@@ -28,20 +24,16 @@
 }
 
 .user-details {
-  text-align: center;
+  text-align: justify;
   margin: 5px auto;
 }
 
 .avatar {
   text-align: center;
-  margin: 10px auto;
+  margin: 25px auto;
    img {
         max-width: 200px;
         max-height: 200px;
         border-radius: 50%;
     }
-}
-
-.icons {
-  color: $sec;
 }
