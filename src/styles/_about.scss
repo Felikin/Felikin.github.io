@@ -8,13 +8,20 @@
 }
 
 .user {
-  text-align: center;
+  text-align: justify;
   font-size: 60px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  // flex-direction: row;
+  // flex-wrap: wrap;
   justify-content: space-between;
   p {
+    width: 100%;
+    font-size: 16px;
+  }
+  ul {
+    width: 85%;
+    text-align: left;
     font-size: 16px;
   }
   @media only screen and (min-width: $cut) {
