@@ -1,5 +1,5 @@
 #portfolio {
-  background-color: black;
+  background-color: $sec;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -7,9 +7,15 @@
   //max-width: 960px;
   background-size: cover;
   margin: 0 auto;
-  padding: auto 10%;
+  padding: 0 10%;
   @media only screen and (min-width: $cut) {
     //width: 80%;
+  }
+}
+.user-details{
+  h1{
+    color: #FFF;
+    opacity: 87%;
   }
 }
 
@@ -27,9 +33,6 @@
   h3 {
     color: #FFF;
   }
-  h1{
-    color: #FFF;
-  }
   li {
     color: $sec;
     font-size: 1.1rem;
@@ -39,11 +42,19 @@
     margin-right: 5px;
   }
   a {
-    color: $sec;
+    color: #fff;
   }
 }
 
 .contents-right {
+  h3 {
+    opacity: 75%;
+    margin: 0;
+    padding: 0;
+  }
+  p {
+    opacity: 70%;
+  }
   @media only screen and (min-width: $cut) {
     float: right;
     width: 48%;
@@ -52,6 +63,12 @@
   }
 }
 .contents-left {
+  h3 {
+    opacity: 75%;
+  }
+  p {
+    opacity: 70%;
+  }
   @media only screen and (min-width: $cut) {
     float: left;
     margin-top: -5%;
@@ -89,7 +106,7 @@
   display: inline-block;
   margin: 10px 0px;
   padding: 5px;
-  background-color: #FFF;
+  background-color: $sec;
   color: #fff;
   border: 1px solid #fff;
   border-radius: 10px;
@@ -101,17 +118,17 @@
               background-color 0.3s ease-out,
               border-color 0.3s ease-out;
   &:hover {
-    background-color: $sec;
-    border-color: #fff;
-    color: #fff;
+    background-color: #fff;
+    border-color: $sec;
+    color: $sec;
     transition: color 0.3s ease-in,
                 background-color 0.3s ease-in,
                 border-color 0.3s ease-in;
   }
   &:active {
-    background-color: $sec;
-    border-color: #fff;
-    color: #fff;
+    background-color: #fff;
+    border-color: $sec;
+    color: $sec;
     transition: color 0.3s ease-in,
                 background-color 0.3s ease-in,
                 border-color 0.3s ease-in;
